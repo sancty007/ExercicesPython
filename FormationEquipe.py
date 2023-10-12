@@ -1,13 +1,13 @@
 import random 
 
-# studen list 
+# studen list / list pair 
 names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah"]
 
 """
     randomList : perme de melanger une liste et 
     retourne une nouvelle liste 
 """
-def randomList(myList) :
+def randomList(myList) -> list:
     try :        
         return random.sample(myList,len(myList)) # return new list
     except :
@@ -22,7 +22,7 @@ def halfList(newList)-> int:
 """
 printeTwoLists :permet retourner -> deux listes grace au tuples
 """
-def printeTwoLists(newList):
+def printeTwoLists(newList) -> tuple:
 
     half = halfList(newList)
     firstList =[i for i in newList[:half]]
