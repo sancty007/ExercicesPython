@@ -1,5 +1,8 @@
 # create class 
 
+def style() :
+    print("\n -------------------------------------------\n")
+
 class CompteBancaire :
     """  numeroCompte (type numerique)
     nom (nom du proprietaire du compte de type chaine) 
@@ -23,8 +26,9 @@ class CompteBancaire :
             print(" montant du retrait doit etre supérieur a zero , Merci de renouveller votre demande .")
 
     def AfficheInformation(self):
-        print(f'''Numero de compte --> {self.numeroCompte} , Proprietaire --> {self.nom} ,
-        le solde actuel --> {self.solde}''')
+        style() 
+        print(f"Numero de compte --> {self.numeroCompte} | Proprietaire --> {self.nom} |le solde actuel --> {self.solde}")
+        style() 
     
     def agios(self) :
         var_agios = self.solde * 0.05 # calcule agios de 5% sur le solde 
@@ -34,3 +38,8 @@ class CompteBancaire :
 
 #Creer une methode Agios permettant d'appliquer les agios a un pourcentage de 5% du solde
 
+CompteBanck = CompteBancaire(123.0000,"sanctifier",500.000)
+
+CompteBanck.AfficheInformation()
+CompteBanck.Retrait(200.000)
+CompteBanck.AfficheInformation()
