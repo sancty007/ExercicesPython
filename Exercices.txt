@@ -1,0 +1,58 @@
+Exo 1 : 
+
+Un professeur de sports souhaite constituer aléatoirement 2 équipes de même taille. Créer une liste d'élèves dont le nombre est pair. Puis écrire un programme en Python qui réponde au problème (sans utiliser shuffle).
+
+exemple de fonction : 
+exemple 1:
+
+import random
+
+ma_liste = ["élément1", "élément2", "élément3", "élément4"]
+
+# Créez une nouvelle liste mélangée sans modifier l'originale
+liste_melangee = random.sample(ma_liste, len(ma_liste))
+
+# Affichez la nouvelle liste mélangée
+print(liste_melangee)
+
+exemple 2 :
+
+import random
+
+ma_liste = ["élément1", "élément2", "élément3", "élément4"]
+
+# Mélangez les éléments de la liste
+random.shuffle(ma_liste)
+
+# Affichez la liste mélangée
+print(ma_liste)
+
+
+Exo 2 : 
+
+Creer une classe python nommee CompteBancaire qui represente un compte bancaire, ayant pour attribut numeroCompte (type numerique), nom (nom du proprietaire du compte de type chaine) solde.
+
+creer un constructeur ayant comme parametres : mumeroCompte, nom, solde
+
+creer une methode Versement qui gere les versements
+
+Creer une methode Retrait qui gere les retraits
+
+Creer une methode Agios permettant d'appliquer les agios a un pourcentage de 5% du solde
+
+Creer une methode afficher permettant d'afficher les details sur le compte
+
+Que votre lead valide vos pull request des que le code est pret ...
+
+
+Exo 3 :
+
+Python - Inverser une chaine de caractères par 3 méthodes :
+Écrire un programme en Python inverser une chaine de caractères:
+a) En parcourant la chaine à l'envers.
+b) En parcourant la chaine à l'endroit.
+c) En utilisant le slicing.
+
+A rendre demain a 20h....
+Et a faire tout seul.
+
