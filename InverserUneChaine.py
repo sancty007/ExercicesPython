@@ -1,4 +1,9 @@
-
+def monStyle(fonction) :
+    def sous_fonction():
+        print("-----------------------------------------")
+        fonction()
+        print("-----------------------------------------")
+    return sous_fonction
 
 
 # parcour de la chaine à l'envers 

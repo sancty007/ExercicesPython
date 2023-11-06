@@ -22,16 +22,15 @@ def halfList(newList)-> int:
 """
 printeTwoLists :permet retourner -> deux listes grace au tuples
 """
-def printeTwoLists(newList) -> tuple:
-
+def printTwoLists(newList) -> tuple:
     half = halfList(newList)
-    firstList =[i for i in newList[:half]]
-    secondtList =[i for i in newList[half:]]
-    return (firstList , secondtList) # -> return tuple 
+    (firstList, secondList) = ([i for i in newList[:half]], [i for i in newList[half:]])
+    return (firstList, secondList)  # Retourne un tuple contenant les deux listes
+
 
     
 newList =randomList(names)
-firstList,secondtList =printeTwoLists(newList)
+firstList,secondtList =printTwoLists(newList)
 
 
 print(firstList)

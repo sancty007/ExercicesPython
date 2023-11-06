@@ -53,6 +53,4 @@ a) En parcourant la chaine à l'envers.
 b) En parcourant la chaine à l'endroit.
 c) En utilisant le slicing.
 
-A rendre demain a 20h....
-Et a faire tout seul.
 
