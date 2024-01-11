@@ -1,0 +1,41 @@
+Semaine 1-2: Introduction à Python
+
+    Jour 1-2: Installation et Premiers Pas
+        Installation de Python et d'un éditeur de texte (comme VSCode ou PyCharm).
+        Écrire et exécuter votre premier programme Python (Hello World).
+
+    Jour 3-5: Variables et Types de Données
+        Comprendre les variables et les types de données (int, float, str).
+        Faire des opérations mathématiques simples avec des variables.
+
+Semaine 3-4: Structures de Contrôle
+
+    Jour 6-8: Conditions (if, elif, else)
+        Utiliser des déclarations conditionnelles pour prendre des décisions.
+
+    Jour 9-11: Boucles (for, while)
+        Apprendre à utiliser des boucles pour répéter des actions.
+
+Semaine 5-6: Fonctions et Structures de Données
+
+    Jour 12-14: Fonctions
+        Définir et appeler des fonctions.
+        Comprendre les paramètres et les valeurs de retour.
+
+    Jour 15-17: Listes
+        Travailler avec des listes.
+        Utiliser des boucles pour manipuler des éléments de liste.
+
+    Jour 18-20: Chaînes de Caractères et Dictionnaires
+        Manipuler des chaînes de caractères.
+        Comprendre l'utilisation des dictionnaires.
+
+Semaine 7: Gestion d'Erreurs et Fichiers
+
+    Jour 21-23: Gestion d'Erreurs
+        Comprendre les exceptions et comment les gérer.
+
+    Jour 24-25: Manipulation de Fichiers
+        Lire et écrire dans des fichiers textes.
+
+Semaine 8: Projet Simple
