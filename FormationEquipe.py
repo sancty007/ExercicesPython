@@ -7,7 +7,7 @@ names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah"]
     randomList : perme de melanger une liste et 
     retourne une nouvelle liste 
 """
-def randomList(myList) -> list:
+def randomList(myList):
     try :        
         return random.sample(myList,len(myList)) # return new list
     except :
@@ -16,13 +16,13 @@ def randomList(myList) -> list:
 """
 halfList : retourne -> la longueur de la moitier de la liste
 """
-def halfList(newList)-> int:
+def halfList(newList):
     return len(newList)//2#cut length of the list in half
  
 """
 printeTwoLists :permet retourner -> deux listes grace au tuples
 """
-def printTwoLists(newList) -> tuple:
+def printTwoLists(newList):
     half = halfList(newList)
     (firstList, secondList) = ([i for i in newList[:half]], [i for i in newList[half:]])
     return (firstList, secondList)  # Retourne un tuple contenant les deux listes
