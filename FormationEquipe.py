@@ -17,7 +17,7 @@ def randomList(myList):
 halfList : retourne -> la longueur de la moitier de la liste
 """
 def halfList(newList):
-    return len(newList)//2#cut length of the list in half
+    return len(newList)//2 #cut length of the list in half
  
 """
 printeTwoLists :permet retourner -> deux listes grace au tuples
